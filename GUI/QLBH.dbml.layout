@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLBH">
+  <DataContextMoniker Name="/QLBHDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a50a3033-bbc3-447a-91a7-729ec76ed6fd" absoluteBounds="0.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QLBHDataContext/chucvu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21b2783b-caee-404d-92c1-dabe302e2993" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0154fa72-29b3-4927-87f7-363e5db2c7e1" absoluteBounds="3.25, 0.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/QLBHDataContext/nhanvien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da270410-9b1b-4734-a268-45ffcb1f41dc" absoluteBounds="3.265, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.09699625651042); (3.25 : 1.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLBHDataContext/chucvu/chucvu_nhanvien" />
+      <nodes>
+        <classShapeMoniker Id="a50a3033-bbc3-447a-91a7-729ec76ed6fd" />
+        <classShapeMoniker Id="0154fa72-29b3-4927-87f7-363e5db2c7e1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

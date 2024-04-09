@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QuanLyShopQuanAo" Class="QLBHDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-DGG3IKPJ\SQLEXPRESS;Initial Catalog=QuanLyShopQuanAo;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="GUI.Properties.Settings" SettingsPropertyName="QuanLyShopQuanAoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.chucvu" Member="chucvus">
+    <Type Name="chucvu">
+      <Column Name="macv" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tencv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="chucvu_nhanvien" Member="nhanviens" ThisKey="macv" OtherKey="macv" Type="nhanvien" />
+    </Type>
+  </Table>
+  <Table Name="dbo.nhanvien" Member="nhanviens">
+    <Type Name="nhanvien">
+      <Column Name="manv" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tentk" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="matkhau" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="hoten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="phai" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cccd" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="sodt" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="macv" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="anh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="chucvu_nhanvien" Member="chucvu" ThisKey="macv" OtherKey="macv" Type="chucvu" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

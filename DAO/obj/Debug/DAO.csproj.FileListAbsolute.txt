@@ -1,0 +1,9 @@
+D:\CSharp\DoAn_3Lop\DAO\bin\Debug\DAO.dll
+D:\CSharp\DoAn_3Lop\DAO\bin\Debug\DAO.pdb
+D:\CSharp\DoAn_3Lop\DAO\bin\Debug\DTO.dll
+D:\CSharp\DoAn_3Lop\DAO\bin\Debug\DTO.pdb
+D:\CSharp\DoAn_3Lop\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\CSharp\DoAn_3Lop\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\CSharp\DoAn_3Lop\DAO\obj\Debug\DAO.csproj.Up2Date
+D:\CSharp\DoAn_3Lop\DAO\obj\Debug\DAO.dll
+D:\CSharp\DoAn_3Lop\DAO\obj\Debug\DAO.pdb

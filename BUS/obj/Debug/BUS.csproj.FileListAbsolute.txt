@@ -1,0 +1,11 @@
+D:\CSharp\DoAn_3Lop\BUS\bin\Debug\BUS.dll
+D:\CSharp\DoAn_3Lop\BUS\bin\Debug\BUS.pdb
+D:\CSharp\DoAn_3Lop\BUS\bin\Debug\DAO.dll
+D:\CSharp\DoAn_3Lop\BUS\bin\Debug\DTO.dll
+D:\CSharp\DoAn_3Lop\BUS\bin\Debug\DAO.pdb
+D:\CSharp\DoAn_3Lop\BUS\bin\Debug\DTO.pdb
+D:\CSharp\DoAn_3Lop\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\CSharp\DoAn_3Lop\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\CSharp\DoAn_3Lop\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\CSharp\DoAn_3Lop\BUS\obj\Debug\BUS.dll
+D:\CSharp\DoAn_3Lop\BUS\obj\Debug\BUS.pdb

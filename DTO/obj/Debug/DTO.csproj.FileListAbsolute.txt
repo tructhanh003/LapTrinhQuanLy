@@ -1,0 +1,6 @@
+D:\CSharp\DoAn_3Lop\DTO\bin\Debug\DTO.dll
+D:\CSharp\DoAn_3Lop\DTO\bin\Debug\DTO.pdb
+D:\CSharp\DoAn_3Lop\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\CSharp\DoAn_3Lop\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\CSharp\DoAn_3Lop\DTO\obj\Debug\DTO.dll
+D:\CSharp\DoAn_3Lop\DTO\obj\Debug\DTO.pdb
